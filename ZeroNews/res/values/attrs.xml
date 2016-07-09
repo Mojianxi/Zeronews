@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These are the standard attributes that make up a complete theme. -->
+    <declare-styleable name="CustomTheme">
+
+        <!-- ============== -->
+        <!-- Generic styles -->
+        <!-- ============== -->
+        <eat-comment />
+
+        <attr name="colorPrimaryDark" format="color" />
+ <!-- 状态栏颜色，会被statusBarColor效果覆盖 -->
+        <attr name="statusBarColor" format="color" />
+ <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <attr name="colorPrimary" format="color" />
+ <!-- actionBar颜色 -->
+        <attr name="navigationBarColor" format="color" />
+ <!-- 底部栏颜色 -->
+        <attr name="colorBackground" format="color" />
+ <!-- 主题菜单的背景色 -->
+        <attr name="colorAccent" format="color" />
+ <!-- 控件默认颜色 ，效果会被colorControlActivated取代 -->
+        <attr name="colorControlNormal" format="color" />
+ <!-- 控件默认时颜色 -->
+        <attr name="colorControlHighlight" format="color" />
+ <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent -->
+        <attr name="colorControlActivated" format="color" />
+ <!-- 控件选中时颜色 -->
+        <attr name="colorButtonNormal" format="color" />
+ <!-- Button的默认背景 -->
+        <eat-comment />
+    </declare-styleable>
+
+</resources>

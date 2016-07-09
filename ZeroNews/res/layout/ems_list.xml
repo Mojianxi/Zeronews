@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_bg"
+    android:orientation="horizontal" >
+
+    <ListView
+        android:id="@+id/lv_ems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+
+    <com.fanxi.zeronews.view.QuickIndexBar
+        android:id="@+id/quickIndex"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#EE5C42" />
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_index"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#ffffff"
+        android:textSize="64sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pager"
+    android:orientation="vertical" >
+	<com.fanxi.zeronews.view.PagerTab
+        android:id="@+id/pager_tab"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A9B7B7"/>
+   
+    <com.fanxi.zeronews.view.HorizontalScrollViewPager
+        android:id="@+id/horizontal_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#eeeeee"
+        />
+</LinearLayout>

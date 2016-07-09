@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" 
+        android:id="@+id/rl_titlebar"/>
+
+    <TextView
+        android:id="@+id/tv_none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/news_bg3"
+        android:gravity="center"
+        android:text="请先登录"
+        android:visibility="gone" />
+
+    <com.fanxi.zeronews.view.DropMenu
+        android:id="@+id/slideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 顶部隐藏布局 -->
+
+        <include layout="@layout/layout_drop" />
+        <!-- 主页面布局 -->
+
+        <include layout="@layout/layout_main" />
+    </com.fanxi.zeronews.view.DropMenu>
+
+</LinearLayout>

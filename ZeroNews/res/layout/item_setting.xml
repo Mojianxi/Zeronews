@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="签名"
+        android:textColor="#88000000" />
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:src="@drawable/setting_arrow" />
+    <TextView
+        android:id="@+id/tv_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#33000000"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="绑定手机号"
+        android:textColor="#ff0000"
+        android:visibility="gone" />
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:button="@drawable/ios7_btn"
+        android:checked="true"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#33000000" />
+
+</RelativeLayout>

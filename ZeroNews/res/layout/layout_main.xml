@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_shadow"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_bg"
+        android:drawableLeft="@drawable/dot_select"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:hint="请选择快递公司" />
+    <EditText 
+        android:id="@+id/et_orderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入订单号"
+        android:gravity="center_vertical"
+         android:layout_margin="10dp"
+        android:background="@drawable/edit_bg"
+        android:paddingLeft="20dp"
+        />
+    <Button 
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/tv_testnumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="left"
+        android:lines="3"
+        android:text="当前测试码:\n公司:安捷  运单号:AN21981331"
+        />
+</LinearLayout>

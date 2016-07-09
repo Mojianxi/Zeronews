@@ -1,0 +1,156 @@
+# view res/layout/pager_server.xml #generated:12
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:267
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:279
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:253
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/activity_bdmap.xml #generated:6
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.fanxi.zeronews.activity.AppnominateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.fanxi.zeronews.activity.BaiduMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.fanxi.zeronews.activity.ChatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.fanxi.zeronews.activity.DecodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class com.fanxi.zeronews.activity.EmsQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.fanxi.zeronews.activity.FeedBackActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.fanxi.zeronews.activity.FullActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.fanxi.zeronews.activity.HcpSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.fanxi.zeronews.activity.ImageScaleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.fanxi.zeronews.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.fanxi.zeronews.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.fanxi.zeronews.activity.NewsDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.fanxi.zeronews.activity.QrCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.fanxi.zeronews.activity.SignatureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.fanxi.zeronews.activity.SmsBindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.fanxi.zeronews.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.fanxi.zeronews.application.BaseApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:374
+-keep class com.fanxi.zeronews.apshare.ShareEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:306
+-keep class com.fanxi.zeronews.receiver.MyReceiver { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:1
+-keep class com.fanxi.zeronews.view.DragLayout { <init>(...); }
+
+# view res/layout/activity_hcpsearch.xml #generated:9
+# view res/layout/activity_queryems.xml #generated:20
+-keep class com.fanxi.zeronews.view.DropMenu { <init>(...); }
+
+# view res/layout/pager_news.xml #generated:18
+-keep class com.fanxi.zeronews.view.HorizontalScrollViewPager { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:41
+-keep class com.fanxi.zeronews.view.MyLinearLayout { <init>(...); }
+
+# view res/layout/activity_detailnews.xml #generated:18
+# view res/layout/activity_login.xml #generated:7
+-keep class com.fanxi.zeronews.view.MyListView { <init>(...); }
+
+# view res/layout/server_item.xml #generated:2
+-keep class com.fanxi.zeronews.view.MyRelativeLayout { <init>(...); }
+
+# view res/layout/fragment_planet.xml #generated:12
+-keep class com.fanxi.zeronews.view.MyScrollView { <init>(...); }
+
+# view res/layout/pager_home.xml #generated:6
+-keep class com.fanxi.zeronews.view.NoScrollViewPager { <init>(...); }
+
+# view res/layout/pager_news.xml #generated:7
+-keep class com.fanxi.zeronews.view.PagerTab { <init>(...); }
+
+# view res/layout/shiting_frament.xml #generated:34
+-keep class com.fanxi.zeronews.view.PullToRefreshListView { <init>(...); }
+
+# view res/layout/ems_list.xml #generated:14
+-keep class com.fanxi.zeronews.view.QuickIndexBar { <init>(...); }
+
+# view res/layout/fragment_news.xml #generated:55
+-keep class com.fanxi.zeronews.view.RefreshListView { <init>(...); }
+
+# view res/layout/super2_vodeo_player_layout.xml #generated:16
+-keep class com.fanxi.zeronews.view.VideoMediaController { <init>(...); }
+
+# view res/layout/full_activity.xml #generated:7
+# view res/layout/shiting_list_item.xml #generated:38
+-keep class com.fanxi.zeronews.view.VideoSuperPlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:358
+-keep class com.fanxi.zeronews.wxapi.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:366
+-keep class com.fanxi.zeronews.yxapi.YXEntryActivity { <init>(...); }
+
+# view res/layout/capture.xml #generated:9
+-keep class com.google.zxing.client.android.decode.ViewfinderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.libs.zxing.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.mob.tools.MobUIShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class com.tencent.connect.common.AssistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.tencent.tauth.AuthActivity { <init>(...); }
+
+# onClick res/layout/activity_chat.xml #generated:24
+-keepclassmembers class * { *** startVoice(...); }
+
+# onClick res/layout/activity_bdmap.xml #generated:54
+-keepclassmembers class * { *** start_serch(...); }
+

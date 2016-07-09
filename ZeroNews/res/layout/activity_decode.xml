@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/tv_title"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:orientation="vertical" >
+
+       <LinearLayout 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:background="#11000000"
+           >
+            <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom" 
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/user"/>
+        
+            <TextView
+                android:id="@+id/et_only_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:hint="必填" />
+       </LinearLayout>
+        <!-- 姓名 -->
+
+
+        <!-- 公司 -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="公司" />
+
+            <TextView
+                android:id="@+id/et_only_company"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+
+        <!-- 职位 -->
+
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位" />
+
+            <TextView
+                android:id="@+id/et_only_position"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               />
+        </LinearLayout>
+
+        <!-- 电话 -->
+
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话" />
+
+            <TextView
+                android:id="@+id/et_only_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+         />
+        </LinearLayout>
+        <!-- 邮箱 -->
+
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮箱" />
+
+            <TextView
+                android:id="@+id/et_only_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+
+        <!-- 网址 -->
+
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网址" />
+
+            <TextView
+                android:id="@+id/et_only_web1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+              />
+        </LinearLayout>
+        <!-- 地址 -->
+
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址" />
+
+            <TextView
+                android:id="@+id/et_only_add"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <!-- 备注 -->
+        <LinearLayout
+             android:padding="10dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注" />
+            <TextView
+                android:id="@+id/et_only_note"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

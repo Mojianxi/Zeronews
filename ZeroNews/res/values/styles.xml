@@ -1,0 +1,156 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="NomalTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/status_nomal</item>
+        <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <item name="statusBarColor">@color/white</item>
+        <!-- actionBar颜色 -->
+        <item name="colorPrimary">@color/action_done</item>
+        <!-- 背景颜色 -->
+        <!-- 底部栏颜色 -->
+        <item name="navigationBarColor">@color/navigation_done</item>
+        <!-- ListView的分割线颜色，switch滑动区域色 -->
+        <item name="android:colorForeground">@color/fg_nomal</item>
+        <!-- popMenu的背景色 -->
+        <item name="android:colorBackground">@color/bg_done</item>
+        <item name="colorBackground">@color/bg_done</item>
+
+        <!-- 控件默认颜色 ，效果会被colorControlActivated取代 -->
+        <item name="colorAccent">@color/control_activated_nomal</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- 控件默认时颜色 -->
+        <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent -->
+        <item name="colorControlHighlight">@color/control_highlight_nomal</item>
+        <!-- 控件选中时颜色 -->
+        <item name="colorControlActivated">@color/control_activated_nomal</item>
+        <!-- Button的默认背景 -->
+        <item name="colorButtonNormal">@color/button_normal_noaml</item>
+    </style>
+
+    <!--
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/alphaWihte</item>
+		<item name="android:windowIsTranslucent">false</item>
+		<item name="android:windowNoTitle">true</item>
+    </style>
+    -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/alphaWihte</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/status_nomal</item>
+        <!-- 状态栏颜色，继承自colorPrimaryDark -->
+        <item name="statusBarColor">@color/status_nomal</item>
+        <!-- actionBar颜色 -->
+        <item name="colorPrimary">@color/action_nomal</item>
+        <!-- 背景颜色 -->
+        <!-- 底部栏颜色 -->
+        <item name="navigationBarColor">@color/navigation_nomal</item>
+        <!-- ListView的分割线颜色，switch滑动区域色 -->
+        <item name="android:colorForeground">@color/fg_nomal</item>
+        <!-- popMenu的背景色 -->
+        <item name="android:colorBackground">@color/bg_nomal</item>
+        <item name="colorBackground">@color/bg_nomal</item>
+
+        <!-- 控件默认颜色 ，效果会被colorControlActivated取代 -->
+        <item name="colorAccent">@color/control_activated_nomal</item>
+
+        <!-- 控件默认时颜色 -->
+        <item name="colorControlNormal">@color/control_normal_nomal</item>
+        <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent -->
+        <item name="colorControlHighlight">@color/control_highlight_nomal</item>
+        <!-- 控件选中时颜色 -->
+        <item name="colorControlActivated">@color/control_activated_nomal</item>
+        <!-- Button的默认背景 -->
+        <item name="colorButtonNormal">@color/button_normal_noaml</item>
+
+        <!-- Button，textView的文字颜色 -->
+        <item name="android:textColor">@color/black_text</item>
+        <!-- RadioButton checkbox等控件的文字 -->
+        <item name="android:textColorPrimaryDisableOnly">@color/black</item>
+        <!-- actionBar的标题文字颜色 -->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="rd_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="video_progressbar_style">
+        <item name="android:maxWidth">43.0dip</item>
+        <item name="android:maxHeight">43.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/biz_news_detailpage_loading_large_anim</item>
+        <item name="android:minWidth">43.0dip</item>
+        <item name="android:minHeight">43.0dip</item>
+    </style>
+
+    <style name="ImageActivity">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!-- 以下为统一字体大小的样式 -->
+    <style name="Theme_Small" parent="@android:style/TextAppearance">
+        <item name="zhubiaoti">12sp</item>
+        <item name="fubiaoti">13sp</item>
+        <item name="dabufen">11sp</item>
+        <item name="shijian">10sp</item>
+    </style>
+
+    <style name="Theme_Medium" parent="@android:style/TextAppearance">
+        <item name="zhubiaoti">14sp</item>
+        <item name="fubiaoti">18sp</item>
+        <item name="dabufen">15sp</item>
+        <item name="shijian">12sp</item>
+    </style>
+
+    <style name="Theme_Large" parent="@android:style/TextAppearance">
+        <item name="zhubiaoti">16sp</item>
+        <item name="fubiaoti">20sp</item>
+        <item name="dabufen">18sp</item>
+        <item name="shijian">14sp</item>
+    </style>
+
+    <style name="Theme_super" parent="@android:style/TextAppearance">
+        <item name="zhubiaoti">22sp</item>
+        <item name="fubiaoti">25sp</item>
+        <item name="dabufen">23sp</item>
+        <item name="shijian">19sp</item>
+    </style>
+    <!-- 对应字体大小的样式设置对应的大小 -->
+    <style name="Caption_font_size" parent="@android:style/TextAppearance">
+        <item name="android:textSize">?@attr/zhubiaoti</item>
+    </style>
+
+    <style name="subtitle_font_size" parent="@android:style/TextAppearance">
+        <item name="android:textSize">?@attr/fubiaoti</item>
+    </style>
+
+    <style name="most_font_size" parent="@android:style/TextAppearance">
+        <item name="android:textSize">?@attr/dabufen</item>
+    </style>
+
+    <style name="time_font_size" parent="@android:style/TextAppearance">
+        <item name="android:textSize">?@attr/shijian</item>
+    </style>
+    <!-- 以上为统一字体大小的样式 -->
+    <!-- sharesdk加载好友列表dialog样式 -->
+    <!-- dialog -->
+    <style name="CommonDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

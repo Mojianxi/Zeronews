@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="zhubiaoti" format="dimension"></attr>
+    <attr name="shijian" format="dimension"></attr>
+    <attr name="dabufen" format="dimension"></attr>
+    <attr name="fubiaoti" format="dimension"></attr>
+</resources>

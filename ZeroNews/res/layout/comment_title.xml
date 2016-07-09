@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+     android:descendantFocusability="blocksDescendants"
+    android:paddingTop="30dp"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/tv_title"
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="评论"	   
+		android:padding="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="#99C1C1C1"
+	    />
+</RelativeLayout>
